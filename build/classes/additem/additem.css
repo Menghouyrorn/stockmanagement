@@ -1,0 +1,19 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.root {
+    -fx-background-image: url('bg.png');
+    -fx-background-size: cover;
+}
+.logo{
+    -fx-background-radius: 10px;
+}
+.btn{
+    -fx-background-color:  #005DA6;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+}
+.btn:hover{
+    -fx-background-color: black;
+}

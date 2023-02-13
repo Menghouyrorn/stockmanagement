@@ -1,0 +1,29 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.root {
+    -fx-background-image: url('bck.png');
+    -fx-background-size: cover;
+}
+.btn{
+    -fx-background-color: #57FA68;
+}
+.pane{
+    -fx-background-color:  #5C5C5C;
+    -fx-opacity: 1;
+}
+.lable{
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #57FA68;
+}
+.btnM{
+    -fx-background-color: #57FA68;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-opacity: 0.9;
+}
+.btnM:hover{
+    -fx-background-color: black;
+}

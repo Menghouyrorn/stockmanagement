@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 2, 2022, 5:50:44 PM
+    Author     : Dell
+*/
+.mainFxmlClass{
+    -fx-background-image: url('bg.png');
+    -fx-background-size: cover;
+}
+.layout{
+    -fx-background-radius: 20px;
+    -fx-background-color: #595959;
+}
+.logo{
+    -fx-text-fill: #01295C;
+}
+.name{
+    -fx-text-fill: white;
+}
+.btn{
+    -fx-background-color: #005DA6;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+.btn:hover{
+    -fx-background-color: black;
+}

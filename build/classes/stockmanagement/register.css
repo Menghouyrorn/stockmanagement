@@ -1,0 +1,25 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.layout{
+    -fx-background-radius: 20px;
+    -fx-background-color: #5C5C5C;
+}
+.logo{
+    -fx-text-fill: #57FA68;
+}
+.name{
+    -fx-text-fill: white;
+}
+.btn{
+    -fx-background-color: #57FA68;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+.btn:hover{
+    -fx-background-color: black;
+}

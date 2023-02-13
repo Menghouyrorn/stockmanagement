@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: A5B9FF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stockmanagement.LoginFormController">
+    <stylesheets>
+        <URL value="@loginform.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="141.0" layoutY="81.0" prefHeight="298.0" prefWidth="302.0" styleClass="mainFxmlClass">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Label layoutX="119.0" layoutY="51.0" prefHeight="30.0" prefWidth="62.0" style="-fx-text-fill: #57FA68;" text=" Login" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="75.0" prefHeight="27.0" prefWidth="92.0" styleClass="name" text="Email">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="134.0" prefHeight="27.0" prefWidth="92.0" styleClass="name" text="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtemail" layoutX="24.0" layoutY="105.0" prefHeight="27.0" prefWidth="252.0" promptText="Enter the email" />
+            <PasswordField fx:id="txtpassword" layoutX="24.0" layoutY="164.0" prefHeight="27.0" prefWidth="252.0" promptText="Enter the Password" />
+            <Button layoutX="24.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="38.0" prefWidth="252.0" styleClass="btn" stylesheets="@loginform.css" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font></Button>
+            <ImageView fx:id="linkToRegister" fitHeight="128.0" fitWidth="101.0" layoutX="100.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true" styleClass="img">
+               <image>
+                  <Image url="@../image/1.png" />
+               </image>
+            </ImageView>
+            <Hyperlink layoutX="24.0" layoutY="191.0" onMouseClicked="#handelLinkToRegister" prefHeight="23.0" prefWidth="142.0" styleClass="link" text="Create New Account ?" />
+            <Hyperlink layoutX="101.0" layoutY="261.0" onAction="#handelLinkForgetPassword" prefHeight="23.0" prefWidth="101.0" styleClass="link" text="Forgot Password" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

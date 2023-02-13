@@ -1,0 +1,14 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.btn{
+    -fx-background-color: #01295C;
+    -fx-cursor: hand;
+}
+.btn:hover{
+    -fx-background-color: black;
+}

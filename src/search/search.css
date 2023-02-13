@@ -1,0 +1,25 @@
+/*
+ * Empty Stylesheet file.
+ */
+.root{
+    -fx-background-image: url('background.png');
+    -fx-background-size: cover;
+}
+.logo{
+    -fx-background-color: #005DA6;
+    -fx-background-radius: 10px;
+}
+.btn{
+    -fx-background-color: #005DA6;
+    -fx-cursor: hand;
+}
+.btn:hover{
+    -fx-background-color: black;
+}
+.btnr{
+    -fx-background-color: #005DA6;
+    -fx-cursor: hand;
+}
+.btnr:hover{
+    -fx-background-color: #616161;
+}

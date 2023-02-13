@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="stockmanagement.AddItemController">
+    <stylesheets>
+        <URL value="@additem.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="92.0" fitWidth="101.0" layoutX="254.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@group5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="92.0" fitWidth="150.0" layoutX="122.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/R%20(3)%201.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="92.0" fitWidth="150.0" layoutX="260.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/refres.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="92.0" fitWidth="159.0" layoutX="400.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/slm1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="243.0" layoutY="113.0" prefHeight="28.0" prefWidth="115.0" style="-fx-background-color: #37CDD7;" styleClass="logo" stylesheets="@additem.css" text="Add New Item" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="400.0" layoutY="268.0" prefHeight="28.0" prefWidth="92.0" style="-fx-background-color: #37CDD7;" styleClass="btn" stylesheets="@additem.css" text="  Computer" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="263.0" layoutY="268.0" prefHeight="28.0" prefWidth="86.0" style="-fx-background-color: #37CDD7;" styleClass="btn" stylesheets="@additem.css" text="     Drink" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="131.0" layoutY="268.0" prefHeight="28.0" prefWidth="74.0" style="-fx-background-color: #37CDD7;" styleClass="btn" stylesheets="@additem.css" text="    Book" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
